@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/minified/TweenMax.min.js">
+	</script>
+</head>
+<body>
+	<img id="im1" src="img/im1.jpg">
+	<img id="im2" src="img/im2.jpg">
+	<script>
+	var a=document.getElementById("im1");
+	TweenMax.to(a,3,{width:"20%",height:"20%",left:"40%",top:"60%", rotationX:"-360",
+	rotationY:"-360", rotationZ:"-360"});
+
+	var b=document.getElementById("im2");
+	TweenMax.to(b,3,{width:"20%",height:"20%",left:"40%",top:"40%", rotationX:"-360",
+	rotationY:"-360", rotationZ:"-360"});
+
+	</script>
+
+
+</body>
+</html>
